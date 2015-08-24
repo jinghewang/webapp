@@ -10,11 +10,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%
-//request.getAttribute();
-  request.getServerName();
   String path =  PathUtils.getServicePath(request);
   pageContext.setAttribute("path",path);
-
 %>
 
 <!DOCTYPE html>
